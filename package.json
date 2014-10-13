@@ -18,5 +18,10 @@
     "express": "^4.9.7",
     "body-parser": "^1.9.0",
     "colors": "^1.0.3"
-  }
+  },
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/dnbard/node-external-logger.git"
+  },
+  "homepage": "https://github.com/dnbard/node-external-logger"
 }
