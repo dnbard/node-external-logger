@@ -1,0 +1,22 @@
+{
+  "name": "node-external-logger",
+  "version": "0.1.0",
+  "description": "Local Web Logger with AJAX transport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "log",
+    "node",
+    "web",
+    "ajax"
+  ],
+  "author": "Alex Bardanov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.9.7",
+    "body-parser": "^1.9.0",
+    "colors": "^1.0.3"
+  }
+}
