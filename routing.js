@@ -9,6 +9,9 @@ function Routing(app){
     app.post('/log/:prefix', logController.custom);
     app.post('/log/:prefix/:type', logController.customWithType);
 
+    app.post('/error/', logController.defaultError);
+    app.post('/error/:prefix', logController.customError);
+
     app.get('/ping', pingController.default);
 }
 

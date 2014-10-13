@@ -30,6 +30,19 @@ LogController.prototype.custom = function(req, res){
     });
 }
 
+LogController.prototype.defaultError = function(req, res){
+    log(req, res, {
+        type: 'error'
+    });
+}
+
+LogController.prototype.customError = function(req, res){
+    log(req, res, {
+        prefix: req.params.prefix,
+        type: 'error'
+    });
+}
+
 LogController.prototype.customWithType = function(req, res){
     log(req, res, {
         prefix: req.params.prefix,
